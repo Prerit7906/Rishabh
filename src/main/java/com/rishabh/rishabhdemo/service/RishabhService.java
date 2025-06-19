@@ -23,7 +23,7 @@ public class RishabhService {
     }
 
     public MyEntity update(UUID id, MyEntity myEntity) {
-        myEntity.setId(id );
+        myEntity.setId( id );
         return rishabhRepository.save(myEntity);
     }
 }
