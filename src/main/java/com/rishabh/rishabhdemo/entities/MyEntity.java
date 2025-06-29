@@ -9,7 +9,6 @@ import java.util.UUID;
 
 @Entity
 public class MyEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
